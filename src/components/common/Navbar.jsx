@@ -1,18 +1,16 @@
 /* eslint-disable react-hooks/exhaustive-deps */
 import { motion } from "framer-motion";
-import { BiBell, BiCaretDown } from "react-icons/bi";
+import { BiCaretDown } from "react-icons/bi";
 import { useDispatch, useSelector } from "react-redux";
 import {
   closeDropdown,
   closeNotifications,
   toggleDropdown,
-  toggleNotifications,
   turnOnDarkMode,
   turnOnLightMode,
   uiStore,
 } from "../../features/uiSlice";
 import Dropdown from "./DropDown";
-import Notifications from "./Notifications";
 import { Link } from "react-router-dom";
 import { useEffect } from "react";
 import { FiMoon, FiSun } from "react-icons/fi";
